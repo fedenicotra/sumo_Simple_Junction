@@ -29,7 +29,9 @@ scale_factor = "1"
 first_program_number = "0"
 second_program_number = "1"
 third_program_number = "2"
+
 ################
+
 ## Loading simulation
 traci.start(cmdSumo)
 ## Setting up the traffic light program
