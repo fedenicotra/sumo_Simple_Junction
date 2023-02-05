@@ -13,7 +13,7 @@ cmdSumo_A =  ["sumo", "-c", "C:/Users/Federico Nicotra/Sumo/Semaforo/incrocioSem
 cmdSumo_AM = ["sumo", "-c", "C:/Users/Federico Nicotra/Sumo/Semaforo/incrocioSempliceAM.sumocfg"]
 
 ## Choose one of the previous commands
-cmdSumo = cmdSumo_S
+cmdSumo = cmdSumo_A
 
 
 traffic_light_ID = "J1"
@@ -23,7 +23,7 @@ test1 = test2 = test3 = 0
 
 ## Traffic scale factor 
 scale = False
-scale_factor = "1"
+scale_factor = "1.5"
 
 ## Program IDs
 first_program_number = "0"
@@ -83,5 +83,5 @@ traci.close()
 
 print("PROG ", first_program_number,": " , test1, 
     "\nPROG ", second_program_number, ": ", test2,
-    "\nPROG ", third_program_number, ": ", test3)
+    "\nPROG ", third_program_number, ": ", test3, sep='')
 # print("PROG 0: ", test1)

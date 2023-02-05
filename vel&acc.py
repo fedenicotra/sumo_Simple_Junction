@@ -1,3 +1,9 @@
+###################################
+#                                 #
+#   Created by Federico Nicotra   #
+#                                 #
+###################################
+
 import traci
 import numpy as np
 import matplotlib.pyplot as plt
