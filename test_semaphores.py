@@ -6,7 +6,7 @@
 
 import traci
 
-## Setup commands to execute sumo (or sumo-gui eventually)
+## Setup commands to execute sumo (or sumo-gui alternatively)
 cmdSumo_OSM =   ["sumo", "-c", "C:/Users/Federico Nicotra/Sumo/2023-01-05-18-11-50/osm.sumocfg"] #created with osm web wizard
 cmdSumo_S =  ["sumo", "-c", "C:/Users/Federico Nicotra/Sumo/Semaforo/incrocioSemplice.sumocfg"]
 cmdSumo_A =  ["sumo", "-c", "C:/Users/Federico Nicotra/Sumo/Semaforo/incrocioSempliceA.sumocfg"]
